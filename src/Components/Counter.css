@@ -1,0 +1,60 @@
+.contain{
+  border: 1px solid rgb(75, 6, 118);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px 0;
+  width: 90vw;
+  background-color: #fff;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: rgb(75, 6, 118);
+  font-size: 2em;
+}
+.count{
+  display: flex;
+  justify-content: center;
+  font-size: 1.7em;
+  font-weight: bold;
+  color: rgb(141, 26, 235);
+}
+.btngrp{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 10px;
+}
+.btn1, .btn2, .btn3{
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 0.8em;
+}
+@media screen and (min-width:400px) {
+  .contain{
+    width:80vw;
+  }
+  h1{
+    font-size: 2.5em;
+  }
+  .btngrp{
+    display:flex;
+    justify-content: center;
+  }
+  .btn1, .btn2, .btn3{
+  font-size: 1.02em;
+  margin: 10px;
+  }
+}
+.btn1{
+  background-color: red;
+}
+.btn2{
+  background-color: grey;
+}
+.btn3{
+  background-color: green;
+}
